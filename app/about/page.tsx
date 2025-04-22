@@ -126,12 +126,12 @@ export default function About() {
           </div>
         </section>
 
-        {/* Education Section */}
+        {/* Why Choose Us */}
         <section className="mb-20 animate-fade-in">
           <h2 className="text-3xl font-semibold mb-8 text-center">Why Choose Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { degree: 'Proven Results', desc: '100+ successful projects across diverse industries.' },
+              { degree: 'Proven Results', desc: 'Successful projects across diverse industries.' },
               { degree: 'Creative + Technical Edge', desc: 'Design thinking meets engineering excellence.' },
               { degree: 'Full-Service Expertise', desc: 'Strategy, branding, development all in one place.' },
               { degree: 'Client-Centric Approach', desc: 'Transparent, responsive, and growth-focused.' },
@@ -155,9 +155,9 @@ export default function About() {
                 value: 'Build scalable & high-performance applications.',
               },
               {
-                name: 'UI/UX Designers',
-                skills: 'Figma + Custom Design',
-                value: 'Create intuitive, aesthetic, and user-focused designs.',
+                name: 'Graphics Designs',
+                skills: 'Adobe Illustrator, Adobe Photoshop',
+                value: 'Our designs are crafted to captivate and convert ideas to visuals.',
               },
               {
                 name: 'Video Editors',
